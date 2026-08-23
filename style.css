@@ -18,3 +18,24 @@ h1{
     height: auto;
 
 }
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.project-card{
+    grid-column: span 3;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
