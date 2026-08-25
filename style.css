@@ -145,15 +145,7 @@ h1,h2,h3{
 .project-card-content{
     padding: 24px;
 }
-@media (max-width:800px){
-        .project-grid{
-        grid-template-columns: 1fr;
-    }
 
-    .project-card{
-        grid-column: span 1;
-    }
-}
 
 .resume-page {
     max-width: 1100px;
@@ -218,4 +210,55 @@ main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 40px 20px;
+}
+
+@media (max-width: 800px){
+        .project-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .project-card{
+        grid-column: span 1;
+    }
+
+    #home-main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #main-bar{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #main-bar-content{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #footer{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-links{
+        justify-content: center;
+    }
+
+    main{
+        padding: 20px 15px;
+    }
+
+    p{
+        padding-left: 0;
+    }
 }
