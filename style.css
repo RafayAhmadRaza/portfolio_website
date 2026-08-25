@@ -232,16 +232,23 @@ main {
         justify-content: center;
     }
 
-    #main-bar{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
+ #main-bar{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
     }
 
     #main-bar-content{
-        justify-content: center;
+        width: 100%;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 5px;
+    }
+
+    #main-bar-content a{
+        padding: 8px 10px;
+        font-size: 0.95rem;
     }
 
     #footer{
