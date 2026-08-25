@@ -14,7 +14,7 @@
     </head>
     <body>
         <header id="main-bar">
-            
+            <div class="logo">Rafay Ahmad Raza</div>
             <nav id="main-bar-content">
                 <a href="index.html">Home</a>
                 <a href="projects.html">Projects</a>
@@ -32,6 +32,10 @@
 
                     <h1>Rafay Ahmad Raza</h1>
                     <h2>Developer</h2>
+                    <div class="terminal">
+    <span class="terminal-prompt">rafay@portfolio:~$</span>
+    <span id="terminal-text"></span><span class="cursor">█</span>
+</div>
                 </div>
                     
                 <div class="profile-image">
@@ -52,16 +56,63 @@
                     <li>Software Development</li>
                     <li>Cloud Computing</li>
                 </ul>
-                <p>I am currently spending my time in developing a personal project, as well as studying for the AWS Cloud Practitioner Examination!</p>
+                <p>I am currently spending my time in developing a personal project, as well as studying for the AWS Cloud Practitioner Examination! While doing random sidequests in Python.</p>
                 
             </section>
         </main>
         
        
-        <footer id="footer">
-            <p>&copy; 2026 Rafay Ahmad Raza</p>
-            <a href="https://github.com/RafayAhmadRaza">Github</a>
-            <a href="https://www.linkedin.com/feed/">LinkedIn</a>
-        </footer>
+<footer id="footer">
+    <div class="footer-copyright">
+        &copy; 2026 Rafay Ahmad Raza
+    </div>
+
+    <div class="footer-links">
+        <a href="https://github.com/RafayAhmadRaza">GitHub</a>
+        <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+    </div>
+</footer>
     </body>
+    <script>
+const texts = [
+    "python developer",
+    "machine learning enthusiast",
+    "software developer",
+    "linux enjoyer",
+    "building cool stuff"
+];
+
+let textIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+const terminalText = document.getElementById("terminal-text");
+
+function type() {
+    const current = texts[textIndex];
+
+    if (!deleting) {
+        terminalText.textContent = current.substring(0, charIndex);
+        charIndex++;
+
+        if (charIndex > current.length) {
+            deleting = true;
+            setTimeout(type, 1500);
+            return;
+        }
+    } else {
+        terminalText.textContent = current.substring(0, charIndex);
+        charIndex--;
+
+        if (charIndex === 0) {
+            deleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+        }
+    }
+
+    setTimeout(type, deleting ? 50 : 100);
+}
+
+type();
+</script>
 </html>

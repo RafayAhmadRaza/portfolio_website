@@ -7,9 +7,8 @@
 
     <title>Projects</title>
 </head>
-<body>
-        <header id="main-bar">
-            
+<body>        <header id="main-bar">
+            <div class="logo">Rafay Ahmad Raza</div>
             <nav id="main-bar-content">
                 <a href="index.html">Home</a>
                 <a href="projects.html">Projects</a>
@@ -21,14 +20,28 @@
         <main>
             
             <section id = 'projects'>
-                <h2>Projects</h2>
-                
+                <h1>Projects</h1>
                 <div class="project-grid">
+                    
+                 <article class="project-card">
+                        <img src="images/sign_buddy.png" alt="Screenshot of Sign Buddy project">
+                        <h3>Sign Buddy</h3>
+                        <p>A Flutter based AI App which using handlandmarks allows us to normalize the values to have a model to predict the sign being shown to the user. The Output is both Text Based and Audio Based</p>
+                        <div class="tags">
+                            <h3>Tools</h3>
+                            <span>Flutter, Tensorflow, Firebase, Kaggle IDE</span>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/RSM-NSU/SignBuddy">Github Repository</a>
+                        </div>
+                    </article>
                     <article class="project-card">
+                        
                         <img src="images/boxer_simulator.png" alt="Screenshot of boxing simulator project">
                         <h3>Boxing Simulator In Python - CLI Based</h3>
                         <p>A small Python boxing simulator I built to experiment with turning boxing into a rules-based simulation.</p>
                         <div class="tags">
+                            <h3>Tools</h3>
                             <span>Python</span>
                         </div>
                         <div class="links">
@@ -41,6 +54,7 @@
                         <h3>Book Recommender</h3>
                         <p>A tiny command-line TBR manager that tells me what to read because apparently choosing a book myself is too difficult.</p>
                         <div class="tags">
+                            <h3>Tools</h3>
                             <span>Python</span>
                         </div>
                         <div class="links">
@@ -53,6 +67,7 @@
                         <h3>SoulCrypt</h3>
                         <p>SoulCrypt is a small command-line tool written in Python for encrypting and decrypting text using a passphrase.</p>
                         <div class="tags">
+                            <h3>Tools</h3>
                             <span>Python</span>
                         </div>
                         <div class="links">
@@ -63,10 +78,15 @@
             </section>
         
         </main>
-                    <footer id="footer">
-            <p>&copy; 2026 Rafay Ahmad Raza</p>
-            <a href="https://github.com/RafayAhmadRaza">Github</a>
-            <a href="https://www.linkedin.com/feed/">LinkedIn</a>
-        </footer>
+<footer id="footer">
+    <div class="footer-copyright">
+        &copy; 2026 Rafay Ahmad Raza
+    </div>
+
+    <div class="footer-links">
+        <a href="https://github.com/RafayAhmadRaza">GitHub</a>
+        <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+    </div>
+</footer>
 </body>
 </html>
