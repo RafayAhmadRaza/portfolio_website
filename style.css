@@ -119,7 +119,6 @@ h1,h2,h3{
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
 }
-
 .project-card{
     grid-column: span 3;
     background-color: var(--color-surface);
@@ -127,6 +126,8 @@ h1,h2,h3{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(10,51,35,0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover{
@@ -140,6 +141,37 @@ h1,h2,h3{
     display: block;
     object-fit: contain;
     background: var(--color-bg);
+}
+
+.project-card h3{
+    margin: 20px 24px 10px;
+}
+
+.project-card p{
+    margin: 0 24px 20px;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+.project-card .tags{
+    margin: auto 24px 20px;
+}
+
+.project-card .tags h3{
+    margin: 0 0 8px;
+}
+
+.project-card .tags span{
+    line-height: 1.5;
+}
+
+.project-card .links{
+    margin: 0 24px 24px;
+}
+
+.project-card .links a{
+    color: var(--color-accent);
+    font-weight: 600;
 }
 
 .project-card-content{
