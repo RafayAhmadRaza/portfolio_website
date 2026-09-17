@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="511.17386mm"
+   height="512.7467mm"
+   viewBox="0 0 511.17386 512.7467"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename=".steampath"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="511.17386"
+       height="512.7467"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="353.70383"
+       y="329.92542"
+       width="1031.3885"
+       height="1245.394"
+       id="rect3" />
+    <rect
+       x="362.62073"
+       y="318.03622"
+       width="1272.1449"
+       height="1174.059"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-0.78642131,-1.5728426)">
+    <rect
+       style="fill:#bbfefe;fill-opacity:1;stroke-width:5.666;stroke-linejoin:bevel"
+       id="rect1"
+       width="511.17386"
+       height="512.7467"
+       x="0.7864213"
+       y="1.5728426" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);fill:#bbfefe;fill-opacity:1;stroke-width:21.4148;stroke-linejoin:bevel"><tspan
+         x="362.62109"
+         y="473.17311"
+         id="tspan1">R</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,90.872856,67.742007)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:800px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#bbfefe;fill-opacity:1;stroke-width:21.4148;stroke-linejoin:bevel"><tspan
+         x="353.70312"
+         y="976.32578"
+         id="tspan4"><tspan
+           style="fill:#000000"
+           id="tspan2">R</tspan></tspan></text>
+  </g>
+</svg>
